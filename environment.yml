@@ -13,6 +13,7 @@ dependencies:
   - jupyterlab
   - scipy
   - statsmodels
+  - nltk
   - wordcloud
 
 
