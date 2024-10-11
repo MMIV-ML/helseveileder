@@ -24,5 +24,6 @@ Tiril Egset Mork¹, Håkon Garnes Mjøs¹, Harald Giskegjerde Nilsen², Sindre K
 
 <!--
 - 🎥 [Demo video ](assets/demo_highest_quality.gif)
+ffmpeg -i demo.mp4 -vf "fps=20,scale=1280:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=256:stats_mode=full[p];[s1][p]paletteuse=dither=floyd_steinberg:diff_mode=rectangle" -loop 0 demo_highest_quality.gif
 -->
 <img src="assets/demo_highest_quality.gif" width="900" alt="Demo GIF">
