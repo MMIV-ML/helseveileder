@@ -1,6 +1,8 @@
 # Helseveileder
+Under etablering ...
 
-Data og analyse av resultater fra undersøkelsen:<br>
+
+**Data og analyse av resultater fra undersøkelsen:**<br>
 
 
 ## **En komparativ studie av GPT-4 og legers svar på helserelaterte spørsmål** 
@@ -15,12 +17,9 @@ Tiril Egset Mork¹, Håkon Garnes Mjøs¹, Harald Giskegjerde Nilsen², Sindre K
 
 
 
-Under etablering ...
-
-
 ### Relevante lenker:
 
 - Studenter spør 
 <img src="https://www.studenterspor.no/sio/assets/faces.svg" width="30">  https://www.studenterspor.no
 
-- 🎥 [Demo video ](assets/demo.mp4)
+- 🎥 [Demo video ](assets/demo.gif)
