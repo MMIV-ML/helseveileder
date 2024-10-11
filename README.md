@@ -22,4 +22,4 @@ Tiril Egset Mork¹, Håkon Garnes Mjøs¹, Harald Giskegjerde Nilsen², Sindre K
 - Studenter spør 
 <img src="https://www.studenterspor.no/sio/assets/faces.svg" width="30">  https://www.studenterspor.no
 
-- 🎥 [Demo video ](assets/demo.gif)
+- 🎥 [Demo video ](assets/demo_highest_quality.gif)
