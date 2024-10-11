@@ -24,7 +24,7 @@ ffmpeg -i demo.mp4 -vf "fps=20,scale=1280:-1:flags=lanczos,split[s0][s1];[s0]pal
 <img src="assets/demo_highest_quality.gif" width="900" alt="Demo GIF">
 
 
-### Fire ulike spørsmål og svar (2 legesvar og 2 GPT-svar) som har median skåre for 'kunnskap', 'empati' og 'hjelpsomhet'
+### Fire ulike spørsmål og svar (to legesvar og to GPT-4 svar) som har median skåre for 'kunnskap', 'empati' og 'hjelpsomhet'
 
 **Eksempel 747:**<br>
 _Spørsmål:_ Jeg kjenner min venstre testikkel mye bedre enn høyre (høyre gjør ikke så vondt når jeg klemmer på den, i forhold til venstre. Hva kan være årsaker til dette? Har hatt dette i 2 mnd nå<br>
