@@ -72,6 +72,7 @@ GPT-4: Ja
 
 #### _Krysstabell og χ²-test_: <br> 
 
+<!--
 <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -86,6 +87,7 @@ GPT-4: Ja
         text-align: right;
     }
 </style>
+-->
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
