@@ -65,17 +65,252 @@ _Kunnskap:_ 4, _Empati:_ 4, _Hjelpsomhet:_ 4<br>
 GPT-4: Ja
 
 
-### Hovedfunn
+## Hovedfunn:
 
-#### Kunnskap
+### Kunnskap
 <img src="assets/kunnskap.png" width="800" alt="Kunnskap">
 
-#### Empati
+#### _Krysstabell og χ²-test_: <br> 
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Kunnskap</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+      <th>5</th>
+      <th>6*</th>
+      <th>Totalt</th>
+    </tr>
+    <tr>
+      <th>Svar-kilde</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Lege</th>
+      <td>6</td>
+      <td>83</td>
+      <td>241</td>
+      <td>486</td>
+      <td>271</td>
+      <td>55</td>
+      <td>1142</td>
+    </tr>
+    <tr>
+      <th>GPT-4</th>
+      <td>3</td>
+      <td>20</td>
+      <td>87</td>
+      <td>442</td>
+      <td>542</td>
+      <td>51</td>
+      <td>1145</td>
+    </tr>
+    <tr>
+      <th>Totalt</th>
+      <td>9</td>
+      <td>103</td>
+      <td>328</td>
+      <td>928</td>
+      <td>813</td>
+      <td>106</td>
+      <td>2287</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+*) "Vet ikke" (skåre 6) er ekskludert fra χ²-testen.<br>
+
+
+**χ²-statistikk**: 204.238<br>
+**P-verdi**: 4.61e-43<br>
+**Forkast H0**: χ²-testen gir sterk statistisk evidens for at det er en forskjell i fordelingen av kunnskapsskårer mellom GPT-4 og lisensierte leger. Gitt den ekstremt lave P-verdien, er denne forskjellen (forskyvning mot høyere skårer for GPT-4 versus legesvar) høyst sannsynlig ikke et resultat av tilfeldigheter. Videre analyse er nødvendig for å forstå den spesifikke naturen av denne forskjellen og dens praktiske implikasjoner.
+
+
+### Empati
 <img src="assets/empati.png" width="800" alt="Empati">
 
-#### Hjelpsomhet
+#### _Mann-Whitney U-test_: <br>
+
+**Mann-Whitney U statistikk**: 1008219.0 <br>
+**P-value**: 1.11e-122<br>
+**Forkast H0**: Det er en signifikant forskjell i empatinivå mellom GPT-4 svar og legesvar i dette materialet. <br>
+**Median empatiskåre for GPT-4**: 4.0<br>
+**Median empatiskåre for legesvar**: 3.0<br>
+Dette viser at GPT-4 genererte svar generelt ble vurdert som mer empatiske enn svar fra lisensierte leger.<br>
+
+#### _Krysstabell og χ²-test_: <br> 
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Empati</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+      <th>5</th>
+      <th>Totalt</th>
+    </tr>
+    <tr>
+      <th>Svar-kilde</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Lege</th>
+      <td>47</td>
+      <td>244</td>
+      <td>454</td>
+      <td>317</td>
+      <td>80</td>
+      <td>1142</td>
+    </tr>
+    <tr>
+      <th>GPT-4</th>
+      <td>1</td>
+      <td>37</td>
+      <td>171</td>
+      <td>595</td>
+      <td>341</td>
+      <td>1145</td>
+    </tr>
+    <tr>
+      <th>Totalt</th>
+      <td>48</td>
+      <td>281</td>
+      <td>625</td>
+      <td>912</td>
+      <td>421</td>
+      <td>2287</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+**χ²-statistikk**: 571.259<br>
+**P-verdi**: 2.57e-122<br>
+**Forkast H0**: Dette χ²-testresultatet gir sterk evidens for at for at fordelingen av empatiskårer er signifikant forskjellig mellom GPT-4 og legers svar. Gitt den ekstremt lave P-verdien, er denne forskjellen (forskyvning mot høyere skårer for GPT-4 versus legesvar) høyst sannsynlig ikke et resultat av tilfeldigheter. Videre analyse er nødvendig for å forstå den spesifikke naturen av denne forskjellen og dens praktiske implikasjoner.
+
+### Hjelpsomhet
 <img src="assets/hjelpsomhet.png" width="800" alt="Hjelpsomhet">
 
+#### _Krysstabell og χ²-test_: <br> 
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Hjelpsomhet</th>
+      <th>1</th>
+      <th>2</th>
+      <th>3</th>
+      <th>4</th>
+      <th>5</th>
+      <th>Totalt</th>
+    </tr>
+    <tr>
+      <th>Svar-kilde</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Lege</th>
+      <td>10</td>
+      <td>121</td>
+      <td>336</td>
+      <td>540</td>
+      <td>135</td>
+      <td>1142</td>
+    </tr>
+    <tr>
+      <th>GPT-4</th>
+      <td>3</td>
+      <td>30</td>
+      <td>125</td>
+      <td>637</td>
+      <td>350</td>
+      <td>1145</td>
+    </tr>
+    <tr>
+      <th>Totalt</th>
+      <td>13</td>
+      <td>151</td>
+      <td>461</td>
+      <td>1177</td>
+      <td>485</td>
+      <td>2287</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+**χ²-statistikk**: 258.485<br>
+**P-verdi**: 9.67e-55<br>
+**Forkast H0**: Det er en signifikant forskjell i fordelingen av hjelpsomhetsskårer mellom GPT-4 og legesvar, og forskjellen i Likert-skåre fordelinger er høyst usannsynlig ikke oppstått ved tilfeldighet.  GPT-4 skårer er mer konsentrert i høyere kategorier enn legesvar. Videre analyse er nødvendig for å forstå den spesifikke naturen av denne forskjellen og dens praktiske implikasjoner.
 
 
 ### Notebooks
