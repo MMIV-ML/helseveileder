@@ -167,6 +167,7 @@ Dette viser at GPT-4 genererte svar generelt ble vurdert som mer empatiske enn s
 
 #### _Krysstabell og χ²-test_: <br> 
 
+<!--
 <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -181,6 +182,7 @@ Dette viser at GPT-4 genererte svar generelt ble vurdert som mer empatiske enn s
         text-align: right;
     }
 </style>
+-->
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -243,6 +245,7 @@ Dette viser at GPT-4 genererte svar generelt ble vurdert som mer empatiske enn s
 
 #### _Krysstabell og χ²-test_: <br> 
 
+<!--
 <div>
 <style scoped>
     .dataframe tbody tr th:only-of-type {
@@ -257,6 +260,7 @@ Dette viser at GPT-4 genererte svar generelt ble vurdert som mer empatiske enn s
         text-align: right;
     }
 </style>
+-->
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
