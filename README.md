@@ -149,8 +149,9 @@ GPT-4: Ja
 
 
 **χ²-statistikk**: 204.238<br>
-**P-verdi**: 4.61e-43<br>
-**Forkast H0**: χ²-testen gir sterk statistisk evidens for at det er en forskjell i fordelingen av kunnskapsskårer mellom GPT-4 og lisensierte leger. Gitt den ekstremt lave P-verdien, er denne forskjellen (forskyvning mot høyere skårer for GPT-4 versus legesvar) høyst sannsynlig ikke et resultat av tilfeldigheter. Videre analyse er nødvendig for å forstå den spesifikke naturen av denne forskjellen og dens praktiske implikasjoner.
+**Antall frihetsgrader**: 4<br>
+**p-verdi**: 4.61e-43<br>
+**Forkast H0**: χ²-testen (χ²(4) = 204,238, p = 4,61 × 10⁻⁴³) gir sterk statistisk evidens for at det er en forskjell i fordelingen av kunnskapsskårer mellom GPT-4 og lisensierte leger. Gitt den ekstremt lave p-verdien, er denne forskjellen (forskyvning mot høyere skårer for GPT-4 versus legesvar) høyst sannsynlig ikke et resultat av tilfeldigheter. Videre analyse er nødvendig for å forstå den spesifikke naturen av denne forskjellen og dens praktiske implikasjoner.
 
 
 ### Empati
@@ -159,7 +160,7 @@ GPT-4: Ja
 #### _Mann-Whitney U-test_: <br>
 
 **Mann-Whitney U statistikk**: 1008219.0 <br>
-**P-value**: 1.11e-122<br>
+**p-verdi**: 1.11e-122<br>
 **Forkast H0**: Det er en signifikant forskjell i empatinivå mellom GPT-4 svar og legesvar i dette materialet. <br>
 **Median empatiskåre for GPT-4**: 4.0<br>
 **Median empatiskåre for legesvar**: 3.0<br>
@@ -237,8 +238,9 @@ Dette viser at GPT-4 genererte svar generelt ble vurdert som mer empatiske enn s
 </div>
 
 **χ²-statistikk**: 571.259<br>
-**P-verdi**: 2.57e-122<br>
-**Forkast H0**: Dette χ²-testresultatet gir sterk evidens for at for at fordelingen av empatiskårer er signifikant forskjellig mellom GPT-4 og legers svar. Gitt den ekstremt lave P-verdien, er denne forskjellen (forskyvning mot høyere skårer for GPT-4 versus legesvar) høyst sannsynlig ikke et resultat av tilfeldigheter. Videre analyse er nødvendig for å forstå den spesifikke naturen av denne forskjellen og dens praktiske implikasjoner.
+**Antall frihetsgrader**: 4<br>
+**p-verdi**: 2.57e-122<br>
+**Forkast H0**: Dette χ²-testresultatet (χ²(4) = 571,259, p = 2,57 × 10^⁻122) gir sterk evidens for at for at fordelingen av empatiskårer er signifikant forskjellig mellom GPT-4 og legers svar. Gitt den ekstremt lave p-verdien, er denne forskjellen (forskyvning mot høyere skårer for GPT-4 versus legesvar) høyst sannsynlig ikke et resultat av tilfeldigheter. Videre analyse er nødvendig for å forstå den spesifikke naturen av denne forskjellen og dens praktiske implikasjoner.
 
 ### Hjelpsomhet
 <img src="assets/hjelpsomhet.png" width="800" alt="Hjelpsomhet">
@@ -315,7 +317,8 @@ Dette viser at GPT-4 genererte svar generelt ble vurdert som mer empatiske enn s
 </div>
 
 **χ²-statistikk**: 258.485<br>
-**P-verdi**: 9.67e-55<br>
+**Antall frihetsgrader**: 4<br>
+**p-verdi**: 9.67e-55<br>
 **Forkast H0**: Det er en signifikant forskjell i fordelingen av hjelpsomhetsskårer mellom GPT-4 og legesvar, og forskjellen i Likert-skåre fordelinger er høyst usannsynlig ikke oppstått ved tilfeldighet.  GPT-4 skårer er mer konsentrert i høyere kategorier enn legesvar. Videre analyse er nødvendig for å forstå den spesifikke naturen av denne forskjellen og dens praktiske implikasjoner.
 
 
