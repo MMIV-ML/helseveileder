@@ -25,7 +25,7 @@ Svarene ble generert av samme modell (gpt-4-1106-preview) via OpenAI Assistant A
 
 ### Analyse av resultatene
 
-Analyse av resultatene ble utført i Python (Jupyter notebooks) med tilhørende biblioteker.
+Analyse av resultatene ble utført i Python ([Jupyter notebook](https://github.com/Helseveileder/helsveileder/blob/main/1-analyse.ipynb)) med tilhørende biblioteker.
 
 ### Inklusjon av spørsmål
 
@@ -33,11 +33,11 @@ Spørsmålene som ble inkludert i studien var medisinsk relevante og besvart av 
 
 ### Definisjoner av evalueringstermene
 
-Empati: Evnen til å oppdage og erkjenne andres følelser og tanker.
+_Empati_: Evnen til å oppdage og erkjenne andres følelser og tanker.
 
-Kunnskap: Nøyaktighet og relevans av den medisinske informasjonen gitt.
+_Kunnskap_: Nøyaktighet og relevans av den medisinske informasjonen gitt.
 
-Hjelpsomhet: Evnen til å gi nyttig og praktisk råd eller støtte.
+_Hjelpsomhet_: Evnen til å gi nyttig og praktisk råd eller støtte.
 
 ### Instruksjonene
 
