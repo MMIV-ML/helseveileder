@@ -91,6 +91,7 @@ You carefully design your responses to ensure linguistic quality, accuracy, and 
 Structure of response: "Bakgrunn: "a summary of the question and a description of your assumptions and plans in great detail, mentioning that you plan to write a correct, empathic, and helpful response. "Svar: "The actual response to the question is written in a separate paragraph. Start your response with the friendly greeting 'Hei'. Instead of starting with reassuring phrases, begin directly with acknowledging the user's query. Offer the actual advice. Write a closing remark like 'Lykke til,' or 'God bedring' when appropriate. Avoid 'God bedring' if the person is not ill.*
 
 
+#### Web-grensnittet som ble brukt til å samle inn spørsmål og svar:
 <!--
 - 🎥 [Demo video ](assets/demo_highest_quality.gif)
 ffmpeg -i demo.mp4 -vf "fps=20,scale=1280:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=256:stats_mode=full[p];[s1][p]paletteuse=dither=floyd_steinberg:diff_mode=rectangle" -loop 0 demo_highest_quality.gif
