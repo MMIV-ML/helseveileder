@@ -1,5 +1,5 @@
-# Helseveileder
-[Under etablering ... (v.2024-10-14b)]
+# Kunstig intelligens i medisin
+[Under etablering ... (v.2024-10-15)]
 
 
 **Data og analyse av resultater fra undersøkelsen:**<br>
