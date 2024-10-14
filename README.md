@@ -329,9 +329,7 @@ Dette viser at GPT-4 genererte svar generelt ble vurdert som mer empatiske enn s
       <td>595</td>
       <td>341</td>
       <td>1145</td>
-
     </tr>
-    <!--
     <tr>
       <th>Totalt</th>
       <td>48</td>
@@ -341,7 +339,6 @@ Dette viser at GPT-4 genererte svar generelt ble vurdert som mer empatiske enn s
       <td>421</td>
       <td>2287</td>
     </tr>
-    -->
   </tbody>
 </table>
 </div>
