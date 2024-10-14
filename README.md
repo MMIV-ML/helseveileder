@@ -357,6 +357,7 @@ Dette viser at GPT-4 genererte svar generelt ble vurdert som mer empatiske enn s
     }
 </style>
 -->
+
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
