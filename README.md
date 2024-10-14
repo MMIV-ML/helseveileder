@@ -105,16 +105,16 @@ ffmpeg -i demo.mp4 -vf "fps=20,scale=1280:-1:flags=lanczos,split[s0][s1];[s0]pal
 | Beskrivelse | Verdi |
 |-------------|-------|
 | Totalt antall spørsmål (hvert med to svar - legesvar og GPT-4 svar til vurdering) | 192 |
-| Totalt antall respondenter  | 355 |
-| Totalt antall responser (respondent-vurderinger av sett med spørsmål og svar) | 2287 |
-| Gjennomsnitt (sd) antall respondenter per spørsmål (med legesvar og GPT-4 svar) | 5.89 (6.72) |
-| Median antall (min-max) respondenter per spørsmål (med legesvar og GPT-4 svar)  | 5 (2-65) |
-| Antall respondenter som har deltatt i studien mer enn en gang | 19 (5.4%) |
-| Antall respondenter som oppgir å være lege eller medisinstudent med lisens. | 44 (12.4%) |
-| Antall respondenter som ikke er lege eller medisinstudent med lisens, men som studerer, arbeider eller har bakgrunn innen helsevesenet | 300 (84.5%) |
+| Totalt antall respondenter  | 344 |
+| Totalt antall responser (respondent-vurderinger av sett med spørsmål og svar) | 2218 |
+| Gjennomsnitt (sd) antall respondenter per spørsmål (med legesvar og GPT-4 svar) | 5.70 (6.66) |
+| Median antall (min-max) respondenter per spørsmål (med legesvar og GPT-4 svar)  | 5 (1-64) |
+| Antall respondenter som har deltatt i studien mer enn en gang | 18 (5.2%) |
+| Antall respondenter som oppgir å være lege eller medisinstudent med lisens. | 44 (12.8%) |
+| Antall respondenter som ikke er lege eller medisinstudent med lisens, men som studerer, arbeider eller har bakgrunn innen helsevesenet | 300 (87.2%) |
 | Median (min-max) lengde på spørsmål | 89.5 (8-200) ord |
-| Median (min-max lengde legesvar (totalt 1142 respondent-vurderinger) | 115 (39-408) ord |
-| Median (min-max) svarlengde GPT-4 (totalt 1145 respondent-vurderinger) | 204 (130-347) ord |####
+| Median (min-max lengde legesvar (totalt 1106 respondent-vurderinger) | 115 (39-408) ord |
+| Median (min-max) svarlengde GPT-4 (totalt 1112 respondent-vurderinger) | 204 (130-347) ord |
 
 
 ### Fire ulike spørsmål og svar (to legesvar og to GPT-4 svar) som har median skåre for 'kunnskap', 'empati' og 'hjelpsomhet'
@@ -180,7 +180,16 @@ GPT-4: Ja
         text-align: right;
     }
 </style>
+
+
+kunnskap	1	2	3	4	5	All
+chatgpt						
+False	6	82	237	471	263	1059
+True	3	20	85	434	527	1069
+All	9	102	322	905	790	2128
+
 -->
+<div>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -190,12 +199,10 @@ GPT-4: Ja
       <th>3</th>
       <th>4</th>
       <th>5</th>
-      <th>6*</th>
       <th>Totalt</th>
     </tr>
     <tr>
       <th>Svar-kilde</th>
-      <th></th>
       <th></th>
       <th></th>
       <th></th>
@@ -208,43 +215,42 @@ GPT-4: Ja
     <tr>
       <th>Lege</th>
       <td>6</td>
-      <td>83</td>
-      <td>241</td>
-      <td>486</td>
-      <td>271</td>
-      <td>55</td>
-      <td>1142</td>
+      <td>82</td>
+      <td>237</td>
+      <td>471</td>
+      <td>263</td>
+      <td>1059</td>
     </tr>
     <tr>
       <th>GPT-4</th>
       <td>3</td>
       <td>20</td>
-      <td>87</td>
-      <td>442</td>
-      <td>542</td>
-      <td>51</td>
-      <td>1145</td>
+      <td>85</td>
+      <td>434</td>
+      <td>527</td>
+      <td>1069</td>
     </tr>
     <tr>
       <th>Totalt</th>
       <td>9</td>
-      <td>103</td>
-      <td>328</td>
-      <td>928</td>
-      <td>813</td>
-      <td>106</td>
-      <td>2287</td>
+      <td>102</td>
+      <td>322</td>
+      <td>905</td>
+      <td>790</td>
+      <td>2128</td>
     </tr>
   </tbody>
 </table>
 </div>
+
+
 *) "Vet ikke" (skåre 6) er ekskludert fra χ²-testen.<br>
 
 
-**χ²-statistikk**: 204.238<br>
+**χ²-statistikk**: 200.131<br>
 **Antall frihetsgrader**: 4<br>
-**p-verdi**: 4.61e-43<br>
-**Forkast H0**: χ²-testen (χ²(4) = 204,238, p = 4,61 × 10⁻⁴³) gir sterk statistisk evidens for at det er en forskjell i fordelingen av kunnskapsskårer mellom GPT-4 og lisensierte leger. Gitt den ekstremt lave p-verdien, er denne forskjellen (forskyvning mot høyere skårer for GPT-4 versus legesvar) høyst sannsynlig ikke et resultat av tilfeldigheter. Videre analyse er nødvendig for å forstå den spesifikke naturen av denne forskjellen og dens praktiske implikasjoner.
+**p-verdi**: 3.52e-42<br>
+**Forkast H0**: χ²-testen (χ²(4) = 200,131, p = 3,52 × $10^{-42}$) gir sterk statistisk evidens for at det er en forskjell i fordelingen av kunnskapsskårer mellom GPT-4 og lisensierte leger. Gitt den ekstremt lave p-verdien, er denne forskjellen (forskyvning mot høyere skårer for GPT-4 versus legesvar) høyst sannsynlig ikke et resultat av tilfeldigheter. Videre analyse er nødvendig for å forstå den spesifikke naturen av denne forskjellen og dens praktiske implikasjoner.
 
 
 ### Empati
