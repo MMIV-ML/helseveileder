@@ -99,6 +99,23 @@ ffmpeg -i demo.mp4 -vf "fps=20,scale=1280:-1:flags=lanczos,split[s0][s1];[s0]pal
 <img src="assets/demo_highest_quality.gif" width="900" alt="Demo GIF">
 
 
+#### Oversikt over materialet:
+
+| Beskrivelse | Verdi |
+|-------------|-------|
+| Totalt antall spørsmål (hvert med to svar - legesvar og GPT-4 svar til vurdering) | 192 |
+| Totalt antall respondenter  | 355 |
+| Totalt antall responser (respondent-vurderinger av sett med spørsmål og svar) | 2287 |
+| Gjennomsnitt (sd) antall respondenter per spørsmål (med legesvar og GPT-4 svar) | 5.89 (6.72) |
+| Median antall (min-max) respondenter per spørsmål (med legesvar og GPT-4 svar)  | 5 (2-65) |
+| Antall respondenter som har deltatt i studien mer enn en gang | 19 (5.4%) |
+| Antall respondenter som oppgir å være lege eller medisinstudent med lisens. | 44 (12.4%) |
+| Antall respondenter som ikke er lege eller medisinstudent med lisens, men som studerer, arbeider eller har bakgrunn innen helsevesenet | 300 (84.5%) |
+| Median (min-max) lengde på spørsmål | 89.5 (8-200) ord |
+| Median (min-max lengde legesvar (totalt 1142 respondent-vurderinger) | 115 (39-408) ord |
+| Median (min-max) svarlengde GPT-4 (totalt 1145 respondent-vurderinger) | 204 (130-347) ord |####
+
+
 ### Fire ulike spørsmål og svar (to legesvar og to GPT-4 svar) som har median skåre for 'kunnskap', 'empati' og 'hjelpsomhet'
 
 **Eksempel 747** (spm.id = 63)<br>
@@ -298,6 +315,7 @@ Dette viser at GPT-4 genererte svar generelt ble vurdert som mer empatiske enn s
       <td>595</td>
       <td>341</td>
       <td>1145</td>
+
     </tr>
     <tr>
       <th>Totalt</th>
