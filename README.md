@@ -442,7 +442,7 @@ Dette viser at GPT-4 genererte svar generelt ble vurdert som mer empatiske enn s
 
 ### Notebooks
 
-[1-analyse.ipynb](/notebooks/analyse.ipynb): Dataanalyse og visualiseringer.
+[analyse.ipynb](/notebooks/analyse.ipynb): Dataanalyse og visualiseringer.
 
 ### Relevante lenker:
 
