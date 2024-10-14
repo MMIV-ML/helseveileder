@@ -33,12 +33,13 @@ Spørsmålene som ble inkludert i studien var medisinsk relevante og besvart av 
 
 ### Definisjoner av evalueringstermene
 
-**Empati**: Evnen til å oppdage og erkjenne andres følelser og tanker.
+**Empati**: Evnen til å oppdage og erkjenne andres følelser og tanker. (Likert-skala* 1-5)
 
-**Kunnskap**: Nøyaktighet og relevans av den medisinske informasjonen gitt.
+**Kunnskap**: Nøyaktighet og relevans av den medisinske informasjonen gitt. (Likert-skala 1-5) skåre 6: Vet ikke
 
-**Hjelpsomhet**: Evnen til å gi nyttig og praktisk råd eller støtte.
+**Hjelpsomhet**: Evnen til å gi nyttig og praktisk råd eller støtte. (Likert-skala 1-5)
 
+*) 1: Veldig dårlig, 2: Dårlig, 3: Nøytral, 4: Bra, 5: Veldig bra
 ### Instruksjonene
 
 Følgende instruksjoner ble gitt til GPT-4 og brukt på alle spørsmålene:
