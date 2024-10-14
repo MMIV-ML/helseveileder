@@ -1,5 +1,5 @@
 # Helseveileder
-[Under etablering ...]
+[Under etablering ... (v.2024-10-14)]
 
 
 **Data og analyse av resultater fra undersøkelsen:**<br>
