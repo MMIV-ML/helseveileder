@@ -25,7 +25,7 @@ Svarene ble generert av samme modell (gpt-4-1106-preview) via OpenAI Assistant A
 
 ### Analyse av resultatene
 
-Analyse av resultatene ble utført i Python ([Jupyter notebook](https://github.com/MMIV-ML/helseveileder/blob/main/notebooks/1-analyse.ipynb)) med tilhørende biblioteker.
+Analyse av resultatene ble utført i Python (se [Jupyter notebook](https://github.com/MMIV-ML/helseveileder/blob/main/notebooks/1-analyse.ipynb) for detaljer) med tilhørende biblioteker.
 
 ### Inklusjon av spørsmål
 
