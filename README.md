@@ -1,5 +1,5 @@
 # Helseveileder
-[Under etablering ... (v.2024-10-14)]
+[Under etablering ... (v.2024-10-14b)]
 
 
 **Data og analyse av resultater fra undersøkelsen:**<br>
@@ -25,7 +25,7 @@ Svarene ble generert av samme modell (gpt-4-1106-preview) via OpenAI Assistant A
 
 ### Analyse av resultatene
 
-Analyse av resultatene ble utført i Python (se [Jupyter notebook](https://github.com/MMIV-ML/helseveileder/blob/main/notebooks/1-analyse.ipynb) for detaljer og utvidete analyser) med tilhørende conda [environment](environment.yml) og biblioteker, og bruk av [cursor](https://cursor.com) AI-støttet IDE.
+Analyse av resultatene ble utført i Python (se [Jupyter notebook](https://github.com/MMIV-ML/helseveileder/blob/main/notebooks/analyse.ipynb) for detaljer og utvidete analyser) med tilhørende conda [environment](environment.yml) og biblioteker, og bruk av [cursor](https://cursor.com) AI-støttet IDE.
 
 ### Inklusjon av spørsmål
 
@@ -258,8 +258,8 @@ All	9	102	322	905	790	2128
 
 #### _Mann-Whitney U-test_: <br>
 
-**Mann-Whitney U statistikk**: 1008219.0 <br>
-**p-verdi**: 1.11e-122<br>
+**Mann-Whitney U statistikk**:  946591.0 <br>
+**p-verdi**: 9.40e-118<br>
 **Forkast H0**: Det er en signifikant forskjell i empatinivå mellom GPT-4 svar og legesvar i dette materialet. <br>
 **Median empatiskåre for GPT-4**: 4.0<br>
 **Median empatiskåre for legesvar**: 3.0<br>
@@ -296,6 +296,7 @@ Dette viser at GPT-4 genererte svar generelt ble vurdert som mer empatiske enn s
 </tr>
 -->
 
+<div>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -305,7 +306,7 @@ Dette viser at GPT-4 genererte svar generelt ble vurdert som mer empatiske enn s
       <th>3</th>
       <th>4</th>
       <th>5</th>
-      <th>Totalt</th>
+      <th>All</th>
     </tr>
     <tr>
       <th>Svar-kilde</th>
@@ -321,38 +322,39 @@ Dette viser at GPT-4 genererte svar generelt ble vurdert som mer empatiske enn s
     <tr>
       <th>Lege</th>
       <td>47</td>
-      <td>244</td>
-      <td>454</td>
-      <td>317</td>
-      <td>80</td>
-      <td>1142</td>
+      <td>238</td>
+      <td>438</td>
+      <td>304</td>
+      <td>79</td>
+      <td>1106</td>
     </tr>
     <tr>
       <th>GPT-4</th>
       <td>1</td>
       <td>37</td>
-      <td>171</td>
-      <td>595</td>
-      <td>341</td>
-      <td>1145</td>
+      <td>168</td>
+      <td>577</td>
+      <td>329</td>
+      <td>1112</td>
     </tr>
     <tr>
       <th>Totalt</th>
       <td>48</td>
-      <td>281</td>
-      <td>625</td>
-      <td>912</td>
-      <td>421</td>
-      <td>2287</td>
+      <td>275</td>
+      <td>606</td>
+      <td>881</td>
+      <td>408</td>
+      <td>2218</td>
     </tr>
   </tbody>
 </table>
+
 </div>
 
-**χ²-statistikk**: 571.259<br>
+**χ²-statistikk**: 549.063<br>
 **Antall frihetsgrader**: 4<br>
-**p-verdi**: 2.57e-122<br>
-**Forkast H0**: Dette χ²-testresultatet (χ²(4) = 571,259, p = 2,57 × 10^⁻122) gir sterk evidens for at for at fordelingen av empatiskårer er signifikant forskjellig mellom GPT-4 og legers svar. Gitt den ekstremt lave p-verdien, er denne forskjellen (forskyvning mot høyere skårer for GPT-4 versus legesvar) høyst sannsynlig ikke et resultat av tilfeldigheter. Videre analyse er nødvendig for å forstå den spesifikke naturen av denne forskjellen og dens praktiske implikasjoner.
+**p-verdi**: 1.63e-117<br>
+**Forkast H0**: Dette χ²-testresultatet (χ²(4) = 549,063, p = 1,63 × $10^{-117}$) gir sterk evidens for at for at fordelingen av empatiskårer er signifikant forskjellig mellom GPT-4 og legers svar. Gitt den ekstremt lave p-verdien, er denne forskjellen (forskyvning mot høyere skårer for GPT-4 versus legesvar) høyst sannsynlig ikke et resultat av tilfeldigheter. Videre analyse er nødvendig for å forstå den spesifikke naturen av denne forskjellen og dens praktiske implikasjoner.
 
 ### Hjelpsomhet
 <img src="assets/hjelpsomhet.png" width="800" alt="Hjelpsomhet">
@@ -376,6 +378,7 @@ Dette viser at GPT-4 genererte svar generelt ble vurdert som mer empatiske enn s
 </style>
 -->
 
+<div>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -401,43 +404,45 @@ Dette viser at GPT-4 genererte svar generelt ble vurdert som mer empatiske enn s
     <tr>
       <th>Lege</th>
       <td>10</td>
-      <td>121</td>
-      <td>336</td>
-      <td>540</td>
-      <td>135</td>
-      <td>1142</td>
+      <td>116</td>
+      <td>326</td>
+      <td>523</td>
+      <td>131</td>
+      <td>1106</td>
     </tr>
     <tr>
       <th>GPT-4</th>
       <td>3</td>
       <td>30</td>
-      <td>125</td>
-      <td>637</td>
-      <td>350</td>
-      <td>1145</td>
+      <td>122</td>
+      <td>619</td>
+      <td>338</td>
+      <td>1112</td>
     </tr>
     <tr>
       <th>Totalt</th>
       <td>13</td>
-      <td>151</td>
-      <td>461</td>
-      <td>1177</td>
-      <td>485</td>
-      <td>2287</td>
+      <td>146</td>
+      <td>448</td>
+      <td>1142</td>
+      <td>469</td>
+      <td>2218</td>
     </tr>
   </tbody>
 </table>
 </div>
 
-**χ²-statistikk**: 258.485<br>
+
+
+**χ²-statistikk**: 246.738<br>
 **Antall frihetsgrader**: 4<br>
-**p-verdi**: 9.67e-55<br>
+**p-verdi**: 3.28e-52<br>
 **Forkast H0**: Det er en signifikant forskjell i fordelingen av hjelpsomhetsskårer mellom GPT-4 og legesvar, og forskjellen i Likert-skåre fordelinger er høyst usannsynlig ikke oppstått ved tilfeldighet.  GPT-4 skårer er mer konsentrert i høyere kategorier enn legesvar. Videre analyse er nødvendig for å forstå den spesifikke naturen av denne forskjellen og dens praktiske implikasjoner.
 
 
 ### Notebooks
 
-[1-analyse.ipynb](/notebooks/1-analyse.ipynb): Dataanalyse og visualiseringer.
+[1-analyse.ipynb](/notebooks/analyse.ipynb): Dataanalyse og visualiseringer.
 
 ### Relevante lenker:
 
