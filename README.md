@@ -1,5 +1,5 @@
 # Kunstig intelligens og legers svar på helsespørsmål
-[Link til artikkel i Tidsskrift for den Norske Legeforening 2025;145(2)](https://tidsskriftet.no/2025/02/kort-rapport/kunstig-intelligens-og-legers-svar-pa-helsesporsmal)  [[PubMed](https://pubmed.ncbi.nlm.nih.gov/39932080)]
+[Link til artikkel i Tidsskrift for den Norske Legeforening 2025;145(2)](https://tidsskriftet.no/2025/02/kort-rapport/kunstig-intelligens-og-legers-svar-pa-helsesporsmal)  [[PubMed](https://pubmed.ncbi.nlm.nih.gov/39932080)] [[NRK.no](https://www.nrk.no/vestland/ny-studie_-kunstig-intelligens-er-meir-empatisk-og-hjelpsam-enn-norske-legar-1.17273922)]
 
 
 **Data og analyse av resultater fra undersøkelsen:**<br>
