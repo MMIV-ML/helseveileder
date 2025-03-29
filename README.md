@@ -1,5 +1,7 @@
-# Kunstig intelligens i medisin
-[Under etablering ... (v.2024-10-15)]
+# Kunstig intelligens og legers svar på helsespørsmål
+[Link](https://tidsskriftet.no/2025/02/kort-rapport/kunstig-intelligens-og-legers-svar-pa-helsesporsmal)
+
+_A.L. 2025-03-29_
 
 
 **Data og analyse av resultater fra undersøkelsen:**<br>
