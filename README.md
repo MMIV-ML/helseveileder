@@ -1,7 +1,5 @@
 # Kunstig intelligens og legers svar på helsespørsmål
-[Link til artikkel i Tidsskrift for den Norske Legeforening 2025;145(2)](https://tidsskriftet.no/2025/02/kort-rapport/kunstig-intelligens-og-legers-svar-pa-helsesporsmal)
-
-_A.L. 2025-03-29_
+[Link til artikkel i Tidsskrift for den Norske Legeforening 2025;145(2)](https://tidsskriftet.no/2025/02/kort-rapport/kunstig-intelligens-og-legers-svar-pa-helsesporsmal)  [[PubMed](https://pubmed.ncbi.nlm.nih.gov/39932080)]
 
 
 **Data og analyse av resultater fra undersøkelsen:**<br>
@@ -452,4 +450,4 @@ Studenter spør
 <img src="https://www.studenterspor.no/sio/assets/faces.svg" width="30">  https://www.studenterspor.no
 
 
-
+Sist oppdatert: _A.L. 2025-03-29_
